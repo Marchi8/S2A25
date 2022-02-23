@@ -61,7 +61,7 @@ console.log(oddsToTwenty());
 function multiplesOfFive(five) {
     let meuRetorno = [];
     
-    for (let counter = 5; counter <= 50; counter++) {
+    for (let counter = 5; counter <= 100; counter++) {
         if(counter%5===0)
         meuRetorno.push(counter)
     }
@@ -150,7 +150,7 @@ console.log(oddNumbersBackwards());
  function multiplesOfFiveBackwards(fiveBckwrd) {
     let meuRetorno = [];
     
-    for (let counter = 50; counter >= 5; counter--) {
+    for (let counter = 100; counter >= 5; counter--) {
         if(counter%5===0)
         meuRetorno.push(counter)
     }
